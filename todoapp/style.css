@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    text-align: center;
+}
+
+.todos{
+    display: flex;
+    justify-content: center;
+    margin-top: 3 rem;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    & p {
+        border: 1px black solid;
+        
+    }
+}
